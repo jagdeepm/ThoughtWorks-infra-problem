@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "thoughtworks-newsfeedapp",
+  "private_key_id": "34cfea9875f1ef1f270e888ced9ae76c15c3fd7e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCcIU90DZKCA0pH\nkCwpTSylR6K+e883wW8KbXJ2pQkxcOKNvG/YnlxaxyAD17P0QDB8vhEAd0l8KKV4\nk+zgJR3mtDX+CDaXOk490ko3TkWwU7FCxU1/5slOzevPK0GdNEYz7xAIqKq9f7Bp\nAZoJt3OelXTJmIH44usEW6E5UPwQn9I64ZKkB0IzZkVIvyhSpmYuD5X2vrAfXfy8\nJrt0UWC+6olNJUIDkDdgbbWy9MBey6BMgFiQJ2tc+vlNSdWR5gNza3M2FOIfD0NH\nyEHEKZi1LrR/4vPLb3RO7lRm8soG5jJTIsiHTc8BQwKp3WfkkcquCt5F7559X/VI\nGwv47wslAgMBAAECggEAK1RjRIXvvv1CxBGS7/NnDIeQ9uRNYd/g/TfaqGqs3nfB\nqCw/rhJk9xyEGgzm+EZILpZhCYwRbM+q/IexGZOzdK9WvKVy4Q1hYW7XAfpLBOB1\nNV6kX3ahL6meY+RRVVuIkCksffqxR94EC2BSa5fqEnzP6JLWn0f6iT8Uw19iVQpW\nbrUo71LJZ35gC+QUVdbWMBJ/AZ4i2Vs8K7foOK1e6Ts8qXGvfZFFdew3cgb/J4XN\n3dMGSi75XK4kAzC7/13UiaBRFNP0VeYV18/MrvSkvV5nXEPQKraZqAjPLTVplGcg\nWxGnMcpnXt6pnAnZ3xG9qCCo6v8YlP9TDCx8laIOEQKBgQDYm0wFa33cgj03iEWy\nM2QyGD5+hWF8ZfDLJMC+8o7pTpYWnpK1/1fBZlDl8uiAK4Wubbe6gz79TMxDvgP6\np16122RVMJMn7Bi2j7P3WfrrG14N5xGfDXKM9ZPrZDT5DaQMmqLomkHS4isE0p2J\nBGcsFk1cLC1vYkX8GpE5oH6GZwKBgQC4hl3829AoPFbVMaMtWrlV7/kUAcJ7EI0J\n25PfVbW/lHHd3oH7OKA8rJAKRYC4etFwU8OpSyis9MVcTdc8QkadYTwrviizBdT/\nfWQBd2T02XJy/OA+ovsYzOd0d7ny11r3IQWdGswCvz201j5hQWdNNjHPobmTbsQO\nv4h1s2JykwKBgArUsRdwSYnWJVN6h+miMjdjCPTwnHBI9KJjwxOJM2YtHMoiwblB\n/FRaVl85JzEJfBS9vbsgxuyJg4k7nh1RcyXqw3iTBjiv0IiIZPpQUICjDK/rRvFK\nDdlIik3x48g0S2ip7s1ssS/nSTljgqcQRkxpDRM3zknMgy1Y8rwL72evAoGBAJaq\n4EN/GFBCNISPqzV1Rq+s6iwz46CouwC5kdxiF6z+gJsw++EtM2lXXaWFar03S5v0\nSWcKP4Q5uIzN4lkJpK8Mnhz5gDHtKSYUNHweCQkEJDdP06pRWcW+SZ8Hw4VN4rC2\n/eZx4vK7RJ9L8FNpG/gnsDRhUS3Y261PJxU0C8aRAoGALsKULiOOzpGBc3t50KKy\n9ODt9BebLOUloqnZq5gdD40AzTN9DvpxS7ALAD/Jiv+N6DKgJVbmK5+LrlLOAduz\n0D1N6vyN9Q7vDJvqDAtJoheWAfY9SvF7kkeaKn1f/OvMI6O/y8/ht3cK1C+RuJDb\nZCHk1ApBMPlCea6Ki2kzRKo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "newsfeed-terraform-sa@thoughtworks-newsfeedapp.iam.gserviceaccount.com",
+  "client_id": "106143253181533688598",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/newsfeed-terraform-sa%40thoughtworks-newsfeedapp.iam.gserviceaccount.com"
+}

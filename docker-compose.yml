@@ -1,0 +1,40 @@
+version: '3'
+services:
+  static-server:
+    build: ./
+    image: app-static
+    ports:
+      - '8000:8000'
+    networks:
+      - newsfeed_app
+  quotes-service:
+    build: quotes/
+    image: quotes
+    environment:
+      - APP_PORT=6000
+    ports:
+      - '6000:6000'
+    networks:
+      - newsfeed_app
+  newsfeed-service:
+    build: newsfeed/
+    image: newsfeed
+    environment:
+      - APP_PORT=6500
+    ports:
+      - '6500:6500'
+    networks:
+      - newsfeed_app
+  frontend-service:
+    build: front-end/
+    image: front-end
+    environment:
+      - APP_PORT=5656
+      - STATIC_URL=http://localhost:8000
+      - QUOTE_SERVICE_URL=http://localhost:6000
+      - NEWSFEED_SERVICE_URL=http://localhost:6500
+      - NEWSFEED_SERVICE_TOKEN=T1&eWbYXNWG1w1^YGKDPxAWJ@^et^&kX
+
+networks:
+  newsfeed_app:
+    driver: bridge
